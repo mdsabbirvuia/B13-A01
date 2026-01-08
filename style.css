@@ -1,0 +1,43 @@
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* common style  */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* header style */
+
+header {
+  max-width: 1600px;
+  height: 92px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 120px;
+  align-items: center;
+}
+nav .blog-section .blogs {
+  list-style: none;
+  display: inline-flex;
+  gap: 32px;
+}
+nav .blog-section .blogs a {
+  text-decoration: none;
+  color: #000000;
+}
+.button-section button {
+  padding: 16px;
+  background-color: #469165;
+  color: white;
+  font-size: 16px 12px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+}
+
+/* body setion style  */
