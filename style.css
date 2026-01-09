@@ -50,7 +50,6 @@ nav .blog-section .blogs a {
 /*hero section style  */
 .hero-section {
   max-width: 1600px;
-  height: 674px;
   text-align: center;
   padding: 115px 120px 179px 120px;
   background-image: url(./assets/hero-bg.png);
@@ -120,5 +119,53 @@ button {
   vertical-align: middle;
 }
 
- /* this is card section */
- 
+ /* this is box card section */
+.box-container {
+  max-width: 1600px;
+  margin: 0px, auto;
+  text-align: center;
+}
+.box-title {
+  height: 117px;
+  display: grid;
+  place-items: end center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #001931;
+}
+.box-heading {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: #627382;
+}
+.box-cards {
+  max-width: 1360px;
+  margin: 44px 120px 9px 120px;
+  display: inline-flex;
+  justify-content: center;
+  gap: 24px;
+}
+.card {
+  max-width: 322px;
+  height: 300px;
+  padding: 24px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 8px 0px #dde1e4bd;
+}
+.card .img-back {
+  margin: 65.5px 107px 16px 107px;
+}
+.card h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #001931
+}
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  color: #001931
+}
+
