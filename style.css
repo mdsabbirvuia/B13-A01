@@ -142,7 +142,7 @@ button {
 .box-cards {
   max-width: 1360px;
   margin: 44px 120px 9px 120px;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   gap: 24px;
 }
