@@ -112,7 +112,7 @@ button {
   background-color: transparent;
   border: 1px solid rgba(252, 252, 252, 0.82);
 }
-.btn-img{
+.btn-img {
   max-width: 20px;
   height: 20px;
   margin: 0px 12px;
@@ -168,4 +168,102 @@ button {
   margin-bottom: 16px;
   color: #001931
 }
+
+/* the solution section  */
+
+.the-solution {
+  max-width: 1600px;
+  margin: 120px 120px 32px 120px;
+}
+.container {
+  max-width: 1360px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.info-box {
+  max-width: 700px;
+  height: 397px;
+  margin: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  
+}
+.Info-details, .info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Info-details h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Info-details h1 {
+  font-size: 54px;
+  font-weight: 700;
+}
+.Info-details p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+}
+.info-list img, div {
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* last section fo main part */
+
+.last-part {
+  max-width: 1600px;
+  height: 588px;
+  margin: 120px;
+  border-radius: 12px;
+  background-color: rgba(247, 246, 242, 1);
+}
+.h1p-btn {
+  max-width: 1360px;
+  width: 388;
+  padding: 130px 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px; 
+}
+.h1p-btn .h1p {
+display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.h1p h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 48px;
+}
+ .h1p p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+}
+.h1p-btn .btn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.button-span span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+}
+
+/* footer section  */
+
+
 
