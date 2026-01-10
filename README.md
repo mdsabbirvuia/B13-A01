@@ -1,4 +1,4 @@
-## :bulb: THIS IS MAY CORE KNOWLEDGE TO COMPLETE THIS ASSIGNMENT!
+## :bulb: MY CORE KNOWLEDGE TO COMPLETE THIS ASSIGNMENT!
 
 <p align="center">
 <img height="150" src="https://raw.githubusercontent.com/ProgrammingHero1/ProgrammingHero1/main/image/HTML.png"/>
